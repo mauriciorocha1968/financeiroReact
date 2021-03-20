@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import cadeadoImg from '../../assets/cadeado.png';
 import logoImg from '../../assets/logo.svg';
 import Button from '../../components/Button';
 import Input from '../../components/Input';
@@ -29,7 +30,7 @@ const SignIn: React.FC = () => {
 
             <Form onSubmit={() => signIn(email, password)}>
                 <FormTitle>
-                <img src={logoImg} alt="Financas" />
+                <img src={cadeadoImg} alt="Financas" />
                 Identificação
                 </FormTitle>
 
